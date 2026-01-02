@@ -14,8 +14,8 @@ app.use(
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
-
 import router from "./routes/user.route.js";
+
 app.use("/auth", router);
 
 export { app };

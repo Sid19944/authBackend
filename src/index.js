@@ -12,6 +12,7 @@ connectToDb()
       console.log("server listing on PORT", PORT);
     });
   })
+  
   .catch((err) => {
     console.log("Error while connecting with MONGO DB", err);
   });
